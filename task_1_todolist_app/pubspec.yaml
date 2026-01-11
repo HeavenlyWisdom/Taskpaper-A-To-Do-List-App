@@ -1,0 +1,59 @@
+name: task_1_todolist_app
+description: A new Flutter project for CODSOFT internship - ToDo List App
+publish_to: 'none'  # Prevents accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'   # More future-proof range (2025 standard)
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Local storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Utilities
+  uuid: ^4.5.0              # For generating unique task IDs
+  intl: ^0.19.0             # Date & time formatting
+
+  # UI/Animations
+  animate_do: ^3.3.4        # Nice entrance animations
+  glassmorphism: ^3.0.0     # Glass effect widgets
+
+  # iOS style icons (optional but commonly used)
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Code generation for Hive
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.12
+
+  # Recommended linting
+  flutter_lints: ^5.0.0     # Updated version (more recent than 6.0.0 as of early 2026)
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment and add your assets when needed
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
+
+  # Example of how to add custom fonts (uncomment when needed)
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: fonts/Poppins-Regular.ttf
+  #       - asset: fonts/Poppins-Medium.ttf
+  #         weight: 500
+  #       - asset: fonts/Poppins-SemiBold.ttf
+  #         weight: 600
