@@ -1,4 +1,4 @@
-# TaskPaper A To Do List App
+# TaskPaper - A To Do List App
 
 Quotinator is a simple Flutter application that generates random motivational quotes with a clean and minimal user interface.
 
